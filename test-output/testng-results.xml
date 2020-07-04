@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Clockify Regression testNG suite" duration-ms="52307" started-at="2020-07-04T13:41:35Z" finished-at="2020-07-04T13:42:27Z">
+    <groups>
+    </groups>
+    <test name="Test 1 - Chrome " duration-ms="49363" started-at="2020-07-04T13:41:35Z" finished-at="2020-07-04T13:42:24Z">
+      <class name="com.qa.Clockify.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="setUp" is-config="true" duration-ms="29156" started-at="2020-07-04T13:41:35Z" finished-at="2020-07-04T13:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="verifyLoginPageTitleTest" duration-ms="432" started-at="2020-07-04T13:42:04Z" finished-at="2020-07-04T13:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="verifySignUpLinkTest" duration-ms="2843" started-at="2020-07-04T13:42:04Z" finished-at="2020-07-04T13:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyForgotpasswordLinkTest()[pri:3, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="verifyForgotpasswordLinkTest" duration-ms="2298" started-at="2020-07-04T13:42:07Z" finished-at="2020-07-04T13:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotpasswordLinkTest -->
+        <test-method status="PASS" signature="verifyLearnMoreLinkTest()[pri:4, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="verifyLearnMoreLinkTest" duration-ms="2354" started-at="2020-07-04T13:42:09Z" finished-at="2020-07-04T13:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLearnMoreLinkTest -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:6, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="verifyLoginTest" duration-ms="11064" started-at="2020-07-04T13:42:12Z" finished-at="2020-07-04T13:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Clockify.test.LoginPageTest@aecb35a]" name="tearDown" is-config="true" duration-ms="1029" started-at="2020-07-04T13:42:23Z" finished-at="2020-07-04T13:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Clockify.test.LoginPageTest -->
+    </test> <!-- Test 1 - Chrome  -->
+    <test name="Test 2 - Firefox" duration-ms="52307" started-at="2020-07-04T13:41:35Z" finished-at="2020-07-04T13:42:27Z">
+      <class name="com.qa.Clockify.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="setUp" is-config="true" duration-ms="30932" started-at="2020-07-04T13:41:35Z" finished-at="2020-07-04T13:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="verifyLoginPageTitleTest" duration-ms="55" started-at="2020-07-04T13:42:05Z" finished-at="2020-07-04T13:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="verifySignUpLinkTest" duration-ms="2025" started-at="2020-07-04T13:42:06Z" finished-at="2020-07-04T13:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyForgotpasswordLinkTest()[pri:3, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="verifyForgotpasswordLinkTest" duration-ms="1931" started-at="2020-07-04T13:42:08Z" finished-at="2020-07-04T13:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotpasswordLinkTest -->
+        <test-method status="PASS" signature="verifyLearnMoreLinkTest()[pri:4, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="verifyLearnMoreLinkTest" duration-ms="2017" started-at="2020-07-04T13:42:10Z" finished-at="2020-07-04T13:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLearnMoreLinkTest -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:6, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="verifyLoginTest" duration-ms="10269" started-at="2020-07-04T13:42:12Z" finished-at="2020-07-04T13:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Clockify.test.LoginPageTest@de3a06f]" name="tearDown" is-config="true" duration-ms="5018" started-at="2020-07-04T13:42:22Z" finished-at="2020-07-04T13:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Clockify.test.LoginPageTest -->
+    </test> <!-- Test 2 - Firefox -->
+  </suite> <!-- Clockify Regression testNG suite -->
+</testng-results>

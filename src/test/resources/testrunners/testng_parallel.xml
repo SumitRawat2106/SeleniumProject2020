@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite  name="Clockify Regression testNG suite" thread-count="2" parallel= "tests">
+<listeners>
+
+<listener class-name = "com.qa.Clockify.listeners.ExtentReportListener"/>
+
+</listeners>
+  <test name="Test 1 - Chrome ">
+  <parameter name = "browser" value = "chrome" />
+    <classes>
+      <class name="com.qa.Clockify.test.LoginPageTest"/>
+      </classes>
+      </test>
+
+      <test name="Test 2 - Firefox">
+      <parameter name = "browser" value = "firefox" />
+      <classes>
+         <class name="com.qa.Clockify.test.LoginPageTest"/>
+    </classes>
+    </test>
+ 
+</suite> 

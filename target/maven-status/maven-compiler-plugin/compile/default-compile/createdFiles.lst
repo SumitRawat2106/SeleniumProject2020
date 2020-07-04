@@ -1,0 +1,8 @@
+com\qa\Clockify\page\LoginPage.class
+com\qa\Clockify\util\JavaScriptUtil.class
+com\qa\Clockify\page\ContactsPage.class
+com\qa\Clockify\page\HomePage.class
+com\qa\Clockify\util\SiteConstants.class
+com\qa\Clockify\base\BasePage.class
+com\qa\Clockify\util\Credentials.class
+com\qa\Clockify\util\ElementUtil.class

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.Clockify.test.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyForgotpasswordLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginTest"/>
+          <include name="verifySignUpLinkTest"/>
+          <include name="verifyLearnMoreLinkTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Clockify.test.LoginPageTest -->
+      <class name="com.qa.Clockify.test.HomePageTest">
+        <methods>
+          <include name="verifyLoggedInaccountNameTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Clockify.test.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
