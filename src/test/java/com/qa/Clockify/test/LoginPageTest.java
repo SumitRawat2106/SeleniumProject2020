@@ -27,16 +27,16 @@ public class LoginPageTest {
 
 	@BeforeTest
 	@Parameters(value={"browser"})
-	public void setUp(@Optional("") String browser) {
+	public void setUp(@Optional("") String browsers) {
 		String browserName = null;
 		bp = new BasePage ();
 		prop  = bp.init_properties();
 		
 		
-		if(browser.equals("")){
+		if(browsers.equals("")){
 			 browserName = prop.getProperty("browser");
 		}else{
-			browserName = browser;
+			browserName = browsers;
 		}
 		
 		driver = bp.init_driver(browserName);
