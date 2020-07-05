@@ -14,6 +14,8 @@ public class HomePage extends BasePage {
 	
 	By accountName = By.xpath("//div[@class='cl-cut-text']");
 	By ProjectLink = By.xpath("//a[@class= 'cl-nav-link cl-yellow']");
+	By SettingsLink = By.xpath("//a[@class='cl-nav-link cl-dropdown-toggle cl-teal cl-d-none cl-d-lg-flex']");
+	
 	
    public HomePage(WebDriver driver) {
 		
@@ -38,6 +40,12 @@ public class HomePage extends BasePage {
     return new ProjectsPage (driver); 
 	
 }
+    
+    public SettingsPage doOpenSettingsPage() {
+        elementUtil.doClick(SettingsLink);
+        return new SettingsPage (driver); 
+    	
+    }
 	
 	
 

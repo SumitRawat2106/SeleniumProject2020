@@ -3,17 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.Clockify.test.LoginPageTest">
+      <class name="com.qa.Clockify.test.SettingsPageTest">
         <methods>
-          <include name="verifyLoginPageTitleTest"/>
-          <include name="verifyForgotpasswordLinkTest"/>
-          <include name="tearDown"/>
-          <include name="verifyLoginTest"/>
-          <include name="verifySignUpLinkTest"/>
-          <include name="verifyLearnMoreLinkTest"/>
+          <include name="verifyPageTitle"/>
           <include name="setUp"/>
+          <include name="verifyWorkSpaceName"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.Clockify.test.LoginPageTest -->
+      </class> <!-- com.qa.Clockify.test.SettingsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
