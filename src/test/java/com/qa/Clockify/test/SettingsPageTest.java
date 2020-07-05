@@ -42,7 +42,7 @@ public class SettingsPageTest {
 	}
 	
 	@Test(priority = 1)
-	public void verifyPageTitle() {
+	public void verifySettingsPageTitle() {
 		System.out.println("Title text is : " +sp.getpageTitle());
 		Assert.assertEquals(sp.getpageTitle(),SiteConstants.SETTINGS_PAGE_TITLE);
 	}
