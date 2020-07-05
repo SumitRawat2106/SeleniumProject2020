@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29697" started-at="2020-07-05T15:04:07Z" finished-at="2020-07-05T15:04:37Z">
+  <suite name="Default suite" duration-ms="30655" started-at="2020-07-05T15:51:50Z" finished-at="2020-07-05T15:52:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29697" started-at="2020-07-05T15:04:07Z" finished-at="2020-07-05T15:04:37Z">
+    <test name="Default test" duration-ms="30655" started-at="2020-07-05T15:51:50Z" finished-at="2020-07-05T15:52:21Z">
       <class name="com.qa.Clockify.test.SettingsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="24418" started-at="2020-07-05T15:04:07Z" finished-at="2020-07-05T15:04:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="26310" started-at="2020-07-05T15:51:50Z" finished-at="2020-07-05T15:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifyPageTitle" duration-ms="140" started-at="2020-07-05T15:04:31Z" finished-at="2020-07-05T15:04:31Z">
+        <test-method status="PASS" signature="verifySettingsPageTitle()[pri:1, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifySettingsPageTitle" duration-ms="624" started-at="2020-07-05T15:52:16Z" finished-at="2020-07-05T15:52:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-        <test-method status="PASS" signature="verifyWorkSpaceName()[pri:2, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifyWorkSpaceName" duration-ms="1576" started-at="2020-07-05T15:04:31Z" finished-at="2020-07-05T15:04:33Z">
+        </test-method> <!-- verifySettingsPageTitle -->
+        <test-method status="PASS" signature="verifyWorkSpaceName()[pri:2, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifyWorkSpaceName" duration-ms="1347" started-at="2020-07-05T15:52:17Z" finished-at="2020-07-05T15:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWorkSpaceName -->
-        <test-method status="PASS" signature="verifyUploadPhotobutton()[pri:3, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifyUploadPhotobutton" duration-ms="1337" started-at="2020-07-05T15:04:33Z" finished-at="2020-07-05T15:04:34Z">
+        <test-method status="PASS" signature="verifyUploadPhotobutton()[pri:3, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifyUploadPhotobutton" duration-ms="1343" started-at="2020-07-05T15:52:18Z" finished-at="2020-07-05T15:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUploadPhotobutton -->
-        <test-method status="PASS" signature="verifyUploadPhoto()[pri:4, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="verifyUploadPhoto" duration-ms="1264" started-at="2020-07-05T15:04:34Z" finished-at="2020-07-05T15:04:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUploadPhoto -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="899" started-at="2020-07-05T15:04:36Z" finished-at="2020-07-05T15:04:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Clockify.test.SettingsPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="960" started-at="2020-07-05T15:52:20Z" finished-at="2020-07-05T15:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

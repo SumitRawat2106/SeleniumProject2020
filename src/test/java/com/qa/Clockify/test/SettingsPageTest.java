@@ -37,7 +37,6 @@ public class SettingsPageTest {
 		lp = new LoginPage(driver);
 		usercred =  new Credentials(prop.getProperty("Email"), prop.getProperty("password"));
 		hp = lp.doLogin(usercred);
-		Thread.sleep(5000);
 		sp = hp.doOpenSettingsPage();
 	}
 	
