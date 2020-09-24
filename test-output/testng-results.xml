@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Clockify Regression testNG suite" duration-ms="33677" started-at="2020-07-07T13:12:22Z" finished-at="2020-07-07T13:12:56Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="33677" started-at="2020-07-07T13:12:22Z" finished-at="2020-07-07T13:12:56Z">
+      <class name="com.qa.Clockify.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Clockify.test.HomePageTest@429bd883]" name="setUp" is-config="true" duration-ms="28889" started-at="2020-07-07T13:12:22Z" finished-at="2020-07-07T13:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.Clockify.test.HomePageTest@429bd883]" name="verifyHomePageTitleTest" duration-ms="52" started-at="2020-07-07T13:12:51Z" finished-at="2020-07-07T13:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyLoggedInaccountNameTest()[pri:2, instance:com.qa.Clockify.test.HomePageTest@429bd883]" name="verifyLoggedInaccountNameTest" duration-ms="1411" started-at="2020-07-07T13:12:51Z" finished-at="2020-07-07T13:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInaccountNameTest -->
+        <test-method status="PASS" signature="verifyProjectTest()[pri:3, instance:com.qa.Clockify.test.HomePageTest@429bd883]" name="verifyProjectTest" duration-ms="1795" started-at="2020-07-07T13:12:53Z" finished-at="2020-07-07T13:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Clockify.test.HomePageTest@429bd883]" name="tearDown" is-config="true" duration-ms="1104" started-at="2020-07-07T13:12:54Z" finished-at="2020-07-07T13:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Clockify.test.HomePageTest -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Clockify Regression testNG suite -->
+</testng-results>

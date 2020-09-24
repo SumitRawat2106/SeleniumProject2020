@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.Clockify.test.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyForgotpasswordLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginTest"/>
+          <include name="verifySignUpLinkTest"/>
+          <include name="verifyLearnMoreLinkTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Clockify.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

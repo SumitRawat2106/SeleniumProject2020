@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite  name="Clockify Regression testNG suite">
+<listeners>
+
+<listener class-name = "com.qa.Clockify.listeners.TesultsListener"/>
+<listener class-name = "com.qa.Clockify.listeners.ExtentReportListener"/>
+<listener class-name = "com.qa.Clockify.listeners.pdfListener"/>
+
+</listeners>
+  <test name="Test 1">
+    <classes>
+      <class name="com.qa.Clockify.test.HomePageTest"/>
+      </classes>
+      </test>
+
+     
+ 
+</suite> 
